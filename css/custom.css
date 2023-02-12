@@ -1,0 +1,90 @@
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  font-family: "Jost", sans-serif;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo .logo-typo {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+@media (min-width: 750px) {
+  .logo img {
+    width: 100px;
+  }
+
+  .logo .logo-typo {
+    font-size: 48px;
+  }
+}
+
+.navbar {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.navbar ul {
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  list-style: none;
+  column-gap: 12px;
+}
+
+.navbar li {
+  margin-bottom: 0;
+  padding: 16px 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.navbar a:hover {
+  color: #0fa0ce;
+}
+
+@media (min-width: 550px) {
+  .navbar ul {
+    column-gap: 36px;
+  }
+  .navbar a {
+    font-size: inherit;
+  }
+}
+
+.doc-section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.footer {
+  padding: 2rem;
+  background-color: #222;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
