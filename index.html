@@ -1,98 +1,32 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
-    <title>RADIANT GROUP</title>
+    <title>RADIANT</title>
     <meta name="description" content="We make RADIANT things." />
     <meta name="author" content="Inhwa Kim" />
-
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link
-      rel="stylesheet"
-      as="style"
-      crossorigin
-      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/skeleton.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="icon" type="image/png" href="static/imgs/favicon.png" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <script type="module" src="src/js/index.js"></script>
   </head>
   <body>
-    <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
       <header class="logo">
-        <img src="images/logo.svg" alt="RADIANT GROUP" />
-        <div class="logo-typo">RADIANT GROUP</div>
+        <img src="static/imgs/logo.svg" alt="RADIANT" />
+        <div class="logo-typo">RADIANT</div>
       </header>
       <nav class="navbar" id="navbar">
         <ul>
-          <li><a href="#intro">INTRO</a></li>
-          <li><a href="#radianters">RADIANTERS</a></li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#people">PEOPLE</a></li>
           <li><a href="#projects">PROJECTS</a></li>
         </ul>
       </nav>
-      <section class="doc-section" id="intro">
-        <h5>About RADIANT GROUP</h5>
-        <p>
-          RADIANT GROUP is a study group at Kyonggi University that studies
-          computer science and develops programs for a better world. Anyone who
-          likes change can join and we are ready to welcome you at any time.
-          Work with us to realize your brilliant ideas and face a brilliant
-          future. Now all you have to do is be part of us.
-        </p>
-      </section>
-      <hr />
-      <section class="doc-section" id="radianters">
-        <h5>RADIANTERS</h5>
-        <p>
-          RADIANTER means a member who works in our organization. It means a
-          radiant person by adding the adjective "radiant" and the suffix "-er"
-          that means a person.
-        </p>
-        <p>
-          Our member is looking for someone who enjoys focusing on something and
-          has a passionate attitude. Don't hesitate to contact me if you think
-          so. We are always waiting.
-        </p>
-      </section>
-      <hr />
-      <section class="doc-section" id="projects">
-        <h5>Our projects</h5>
-        <p>The project list is being prepared.</p>
-      </section>
+      <div id="root"></div>
       <footer class="footer">
-        <p>
-          Copyright © <span id="year"></span> RADIANT GROUP. All rights
-          reserved.
-        </p>
+        <p>Copyright © 2023 RADIANT GROUP. All rights reserved.</p>
       </footer>
     </div>
-    <script>
-      const year = document.getElementById("year");
-      year.textContent = new Date().getFullYear();
-    </script>
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   </body>
 </html>
