@@ -54,7 +54,6 @@ export const People = () =>
             <th>Name</th>
             <th>Major</th>
             <th>Interests</th>
-            <th></th>
           </tr>
         </thead>
         <tbody>
