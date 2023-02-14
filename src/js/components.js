@@ -105,7 +105,7 @@ export const People = () =>
                   src="https://github.com/MyeongSeok98.png?size=40"
                 />
                 <a href="https://github.com/MyeongSeok98" target="_blank">
-                  MyeongSeok Kim
+                  Myeongseok Kim
                 </a>
               </div>
             </td>
