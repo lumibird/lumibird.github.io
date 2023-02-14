@@ -85,7 +85,7 @@ export const People = () =>
                   src="https://github.com/Win-9.png?size=40"
                 />
                 <a href="https://github.com/Win-9" target="_blank">
-                  Seunggu Gang
+                  Seunggu Kang
                 </a>
               </div>
             </td>
