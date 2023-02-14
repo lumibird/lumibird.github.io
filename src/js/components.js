@@ -60,7 +60,10 @@ export const People = () =>
           <tr>
             <td>
               <div class="member-label">
-                <img src="https://github.com/radiantbeing99.png?size=40" />
+                <img
+                  class="avatar"
+                  src="https://github.com/radiantbeing99.png?size=40"
+                />
                 <a href="https://github.com/radiantbeing99" target="_blank">
                   Inhwa Kim
                 </a>
@@ -77,7 +80,10 @@ export const People = () =>
           <tr>
             <td>
               <div class="member-label">
-                <img src="https://github.com/Win-9.png?size=40" />
+                <img
+                  class="avatar"
+                  src="https://github.com/Win-9.png?size=40"
+                />
                 <a href="https://github.com/Win-9" target="_blank">
                   Seunggu Gang
                 </a>
@@ -88,6 +94,26 @@ export const People = () =>
               <ul>
                 <li>Java</li>
                 <li>Spring</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="member-label">
+                <img
+                  class="avatar"
+                  src="https://github.com/MyeongSeok98.png?size=40"
+                />
+                <a href="https://github.com/MyeongSeok98" target="_blank">
+                  MyeongSeok Kim
+                </a>
+              </div>
+            </td>
+            <td>Computer Engineering</td>
+            <td>
+              <ul>
+                <li>Java</li>
+                <li>Unity</li>
               </ul>
             </td>
           </tr>

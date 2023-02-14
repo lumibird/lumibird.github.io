@@ -119,3 +119,8 @@ hr {
     column-gap: 16px;
   }
 }
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
