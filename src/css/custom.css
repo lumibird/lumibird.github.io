@@ -1,6 +1,15 @@
+html,
+body {
+  font-family: "Pretendard Variable", sans-serif;
+}
+
 hr {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.invisible {
+  display: none;
 }
 
 .container {
@@ -12,7 +21,7 @@ hr {
   justify-content: center;
   align-items: center;
   column-gap: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 64px;
   margin-bottom: 64px;
 }
