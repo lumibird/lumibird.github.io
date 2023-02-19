@@ -74,6 +74,11 @@ export const People = () =>
     <section class="doc-section" id="intro">
       <h5>Members</h5>
       <table class="u-full-width members-table">
+        <colgroup>
+          <col width="25%" />
+          <col width="37.5%" />
+          <col width="37.5%" />
+        </colgroup>
         <thead>
           <tr>
             <th>Name</th>
@@ -180,6 +185,11 @@ export const Projects = () =>
         >
       </p>
       <table class="u-full-width members-table">
+        <colgroup>
+          <col width="22.5%" />
+          <col width="22.5%" />
+          <col width="55%" />
+        </colgroup>
         <thead>
           <tr>
             <th>Name</th>
